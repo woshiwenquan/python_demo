@@ -17,7 +17,7 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 from_addr = '1427646459@qq.com'               # 用户的邮件地址
-password = 'kkcddnyuldpuicjf'             # 用户的邮件密码
+password = '********'             # 用户的邮件密码
 to_addrs = '520145578@qq.com'           # 收件人邮件地址
 smtp_server = 'smtp.qq.com'       # 用户的SMTP服务器地址
 
